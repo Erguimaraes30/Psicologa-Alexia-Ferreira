@@ -21,10 +21,37 @@ export const links = {
 export const navItems = [
   ["Início", "#inicio"],
   ["Sobre", "#sobre"],
-  ["Desenvolvimento Infantil", "#desenvolvimento"],
-  ["ABA", "#aba"],
   ["Atendimento", "#atendimento"],
+  ["Instagram", "#instagram"],
+  ["Dúvidas", "#faq"],
   ["Contato", "#contato"],
+];
+
+export const heroMessages = [
+  "Atendimento psicológico voltado ao desenvolvimento infantil.",
+  "Orientação familiar com escuta ética e acolhedora.",
+  "Práticas baseadas em ABA, com cuidado e individualidade.",
+  "Compreensão de comportamentos, rotina, comunicação e emoções.",
+  "Um espaço para famílias encontrarem direção com leveza.",
+];
+
+export const aboutCards = [
+  {
+    title: "Quem é Alexia Ferreira?",
+    text: "Psicóloga com foco em desenvolvimento infantil, auxiliando famílias na compreensão de comportamentos, habilidades e necessidades da criança.",
+  },
+  {
+    title: "Desenvolvimento infantil",
+    text: "Cada criança possui seu próprio ritmo. O acompanhamento ajuda a compreender comunicação, emoções, rotina e interação social.",
+  },
+  {
+    title: "ABA com ética",
+    text: "A Análise do Comportamento Aplicada orienta estratégias baseadas na observação e compreensão do comportamento.",
+  },
+  {
+    title: "Família no processo",
+    text: "Os responsáveis participam com orientação, acolhimento e clareza para favorecer continuidade no cotidiano.",
+  },
 ];
 
 export const demands = [
@@ -68,14 +95,6 @@ export const demands = [
     title: "Acolhimento aos pais",
     text: "Escuta ética para famílias que buscam clareza e direção.",
   },
-];
-
-export const audiences = [
-  "Famílias que buscam compreender melhor o desenvolvimento da criança.",
-  "Responsáveis que desejam apoio profissional diante de desafios comportamentais.",
-  "Crianças que precisam desenvolver habilidades de comunicação, autonomia ou interação.",
-  "Famílias que buscam orientação sobre rotina, hábitos e manejo de comportamentos.",
-  "Responsáveis que desejam acompanhamento ético, estruturado e acolhedor.",
 ];
 
 export const steps = [
@@ -133,12 +152,7 @@ export const faqs = [
   },
 ];
 
-export const socialCards = [
-  "Desenvolvimento não é comparação.",
-  "Pequenos avanços também importam.",
-  "Rotina pode ser cuidado.",
-  "ABA com ética, escuta e direção.",
-];
+export const storySlots = Array.from({ length: 8 }, (_, index) => index + 1);
 
 export const footerLinks = [
   ["Instagram", links.instagram, Instagram],
